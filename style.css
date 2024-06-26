@@ -23,8 +23,8 @@ body{
     visibility: hidden;
     min-width: 250px;
     margin-left: -125px;
-    background-color: #333;
-    color: #fff;
+    background-color: #15ff00;
+    color: #000000;
     text-align: center;
     border-radius: 5px;
     padding: 16px;
@@ -328,9 +328,9 @@ h5{
     color: #ffeba7;
     font-family: "poppins",sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.2;
-    color: #fff;
+    color: #f3ff72;
     margin-right: 10px;
     /* box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
     z-index: 10;
@@ -370,6 +370,7 @@ h5{
 #desc-1:checked ~ .desc-sec.accor-1{
     opacity: 1;
     pointer-events: auto;
+    color: rgb(255, 255, 255);
     transform: translateY(0);
 }
 
